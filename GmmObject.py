@@ -22,21 +22,21 @@ class GmmObject(object):
         print("Training sucessfull")
         print("number of iterations: " + str(self.gmm_.n_init))
 
-    def recognize(self):
+    def recognize(self, mfcc_input):
         if self.untrained:
             print("GMM object wasn't trained yet!")
-            return False
+            return -99999
         else:
-            outputlog = self.gmm_.score(self.mfcc_)
+            outputlog = self.gmm_.score(mfcc_input)
             if outputlog > -15:
                 print("Object was recognised")
-                return True
+                return outputlog
             elif outputlog > -30 and outputlog <= -15:
                 print("Object was barely recognised")
-                return True
+                return outputlog
             else:
                 print("Object wasnt recognised")
-                return False
+                return outputlog
 
 
 
