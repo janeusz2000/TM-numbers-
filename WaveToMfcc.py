@@ -2,6 +2,7 @@
 import numpy as np
 from python_speech_features import mfcc
 
+
 class WaveToMfcc(object):
 
     def __init__(self, array, rate):
