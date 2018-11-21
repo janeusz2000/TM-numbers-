@@ -1,6 +1,5 @@
-"""
-this program is going to trainning data drom MFCC input
-"""
+"""this program is going to trainning data drom MFCC input"""
+
 import sklearn.mixture.gaussian_mixture
 
 class GmmObject(object):
