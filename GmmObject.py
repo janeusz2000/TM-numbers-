@@ -20,7 +20,7 @@ class GmmObject(object):
         self.gmm_.fit(self.mfcc_)
         self.untrained = False
         print("Training sucessfull")
-        print("number of iterations: " + str(self.gmm_.n_init))
+        print("number of iterations: " + str(self.gmm_.n_iter_))
 
     def recognize(self, mfcc_input):
         if self.untrained:
