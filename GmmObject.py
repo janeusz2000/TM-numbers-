@@ -7,19 +7,12 @@ class GmmObject(object):
 
     # constructor
 
-    def __init__(self, name, n_components, max_iter, mfcc_input):
+    def __init__(self, n_components, max_iter, mfcc_input):
         self.gmm_ = sklearn.mixture.gaussian_mixture.GaussianMixture(n_components=n_components,
                                                                      max_iter=max_iter, init_params='random',
                                                                      random_state=20)
-        self.name_ = name
         self.untrained = True
         self.mfcc_ = mfcc_input
-        print("Object: " + name + " was successfully created")
-
-    # destructor
-
-    def __del__(self):
-        print("Object: " + self.name_ + " was successfully destroyed")
 
     # methods:
 

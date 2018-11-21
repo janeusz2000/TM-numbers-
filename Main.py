@@ -5,8 +5,16 @@ import WaveReader
 import WaveToMfcc
 
 reader = WaveReader.WaveReader("train")
-reader.read_all()
+(signals, rate) = reader.read_all()
+converter = WaveToMfcc.WaveToMfcc(signals, rate)
+mfcc_array = converter.create_mfcc()
 
+table = []
+for each in range(0, 9):
+    table.append(GmmObject.GmmObject(16, 100, mfcc_array[each]))
 
-converter = WaveToMfcc.WaveToMfcc(reader)
-gmm = GmmObject
+for each in table:
+    each.train_data()
+
+print("YAY")
+
