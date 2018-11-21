@@ -11,7 +11,7 @@ mfcc_array = converter.create_mfcc()
 
 table = []
 for each in range(0, 9):
-    table.append(GmmObject.GmmObject(16, 100, mfcc_array[each]))
+    table.append(GmmObject.GmmObject(16, 20, mfcc_array[each]))
 
 for each in table:
     each.train_data()
