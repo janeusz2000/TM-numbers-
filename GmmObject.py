@@ -1,20 +1,15 @@
 """this program is going to trainning data drom MFCC input"""
 
 import sklearn.mixture.gaussian_mixture
-
-class GmmObject(object):
+    class GmmObject(object):
 
     # constructor
-
-    def __init__(self, n_components, n_init_in, mfcc_input):
-        self.gmm_ = sklearn.mixture.gaussian_mixture.GaussianMixture(n_components=n_components,
-                                                                     max_iter=2000, init_params='random',
-                                                                     random_state=20, n_init=n_init_in)
+    def __init__(self, n_components, mfcc_input):
+        self.gmm_ = sklearn.mixture.gaussian_mixture.GaussianMixture(n_components=n_components, random_state=20)
         self.untrained = True
         self.mfcc_ = mfcc_input
 
     # methods:
-
     def train_data(self):
         self.gmm_.fit(self.mfcc_)
         self.untrained = False
