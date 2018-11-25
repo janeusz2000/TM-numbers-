@@ -21,16 +21,7 @@ import sklearn.mixture.gaussian_mixture
             print("GMM object wasn't trained yet!")
             return -99999
         else:
-            outputlog = self.gmm_.score(mfcc_input)
-            if outputlog > -15:
-                print("Object was recognised")
-                return outputlog
-            elif outputlog > -30 and outputlog <= -15:
-                print("Object was barely recognised")
-                return outputlog
-            else:
-                print("Object wasnt recognised")
-                return outputlog
+            return self.gmm_.score(mfcc_input)
 
 
 
