@@ -1,7 +1,9 @@
 """this program is going to trainning data drom MFCC input"""
 
 import sklearn.mixture.gaussian_mixture
-    class GmmObject(object):
+
+
+class GmmObject(object):
 
     # constructor
     def __init__(self, n_components, mfcc_input):
