@@ -4,6 +4,7 @@ import scipy.io.wavfile as wav
 import numpy as np
 import os
 
+
 class WaveReader(object):
 
     def __init__(self, path_folder):
