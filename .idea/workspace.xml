@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="635ffae2-9aa1-46b3-bed6-f084131a380e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestultsCsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestultsCsv.py" afterDir="false" />
-    </list>
+    <list default="true" id="635ffae2-9aa1-46b3-bed6-f084131a380e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     <session id="1624193066">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.opened" value="6" />
@@ -112,7 +109,7 @@
             <state relative-caret-position="391">
               <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
-                <marker date="1543084951099" expanded="true" signature="131:137" ph="..." />
+                <marker date="1543326918165" expanded="true" signature="131:137" ph="..." />
               </folding>
             </state>
           </provider>
@@ -274,7 +271,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="242" y="38" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3472834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -338,7 +334,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
-            <marker date="1543084951099" expanded="true" signature="131:137" ph="..." />
+            <marker date="1543326918165" expanded="true" signature="131:137" ph="..." />
           </folding>
         </state>
       </provider>
