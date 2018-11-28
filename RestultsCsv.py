@@ -9,6 +9,8 @@ class ResultsCsv(object):
 
     def __init__(self, results):
         self.results_ = results
+        self.writer = csv.writer("Results.csv")
+
 
     # methods
 
