@@ -25,7 +25,7 @@ class ResultsCsv(object):
                     results_writer.writerow([str(each[0])] + [' recognised: '] + [str(each[1])])
 
         results_file.close()
-        
+
 
 
 
