@@ -39,16 +39,16 @@ class Commander(object):
             trained_gmm = self.train(train_mfcc)
             classificator = Classificator.Classificator([], trained_gmm)
             results_onetest = np.zeros((20, 1))
-            idx=0
+            idx = 0
             names = np.chararray((20, 1), itemsize=12, unicode=True)
             for one_test in test:
                 mfcc_table = self.converter.glue(one_test)
                 for i in range(0, 10):
                     classificator.mfcc_ = mfcc_table[i]
                     results_onetest[idx, 0] = classificator.classify(i)
-                    names[idx, 0] = self.converter.list_of_speakers[one_test]+"" + str(i) + '_.wav'
-                    idx +=1
-            results_onetest = np.concatenate((results_onetest, names), axis=1)
+                    names[idx, 0] = self.converter.list_of_speakers[one_test]+"_" + str(i) + '_.wav'
+                    idx += 1
+            results_onetest = np.concatenate((names, results_onetest), axis=1)
             results.append(results_onetest)
         return results
 
