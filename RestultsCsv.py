@@ -2,6 +2,7 @@
 
 import csv
 
+
 class ResultsCsv(object):
 
     # constructor
