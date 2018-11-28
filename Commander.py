@@ -34,6 +34,8 @@ class Commander(object):
 
     def cross_test(self):
         results = []
+        rr = np.zeros((1, 11))
+        i_r = 0
         for train, test in self.cross_split.get_split():
             train_mfcc = self.converter.glue(train)
             trained_gmm = self.train(train_mfcc)
@@ -50,7 +52,9 @@ class Commander(object):
                     idx += 1
             results_onetest = np.concatenate((names, results_onetest), axis=1)
             results.append(results_onetest)
-        return results
+            rr[0, i_r] = classificator.get_RR()
+            i_r += 1
+        return results, rr
 
 
 
