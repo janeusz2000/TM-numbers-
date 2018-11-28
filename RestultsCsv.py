@@ -1,5 +1,7 @@
 """ this program is going to wirte results to csv"""
 
+import csv
+
 class ResultsCsv(object):
 
     # constructor
