@@ -64,13 +64,12 @@ class Commander(object):
             rr_i = np.mean(rr)
         return results, rr
 
-    def write_to_csv(self):
+    def write_to_csv(self, file_name):
         temp = np.array([])
 
         if self.results_ == temp or self.rr_ == temp:
             print("NOTHING TO WRITE")
         else:
-            file_name = 'results.csv'
             writer = RestultsCsv.ResultsCsv(self.results_, self.rr_, file_name)
             writer.write_to_csv()
 
