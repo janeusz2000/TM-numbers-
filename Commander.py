@@ -69,7 +69,8 @@ class Commander(object):
         if self.results_ == temp or self.rr_ == temp:
             print("NOTHING TO WRITE")
         else:
-            writer = RestultsCsv.ResultsCsv(self.results_, self.rr_)
+            file_name = 'results.csv'
+            writer = RestultsCsv.ResultsCsv(self.results_, self.rr_, file_name)
             writer.write_to_csv()
 
 

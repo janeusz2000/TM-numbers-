@@ -7,14 +7,15 @@ class ResultsCsv(object):
 
     # constructor
 
-    def __init__(self, results_matrix, rr):
+    def __init__(self, results_matrix, rr, name):
+        self.name_ = name
         self.results_ = results_matrix
         self.rr_ = rr
     # methods
 
     def write_to_csv(self):
 
-        with open('results.csv', mode='w') as results_file:
+        with open(str(self.name_), mode='w') as results_file:
             results_writer = csv.writer(results_file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
 
             for site in range(0, 10):
