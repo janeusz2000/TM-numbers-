@@ -20,6 +20,7 @@ class Commander(object):
         self.cross_split = CrossValidation.CrossValidation(self.converter.list_of_speakers, 2)
         self.results_ = np.array([])
         self.rr_ = np.array([])
+        self.rr_i = 0
 
     def train_all(self):
         self.gmm_table_ = []
@@ -61,7 +62,7 @@ class Commander(object):
 
             self.results_ = results
             self.rr_ = rr
-            rr_i = np.mean(rr)
+            self.rr_i = np.mean(rr)
         return results, rr
 
     def write_to_csv(self, file_name):

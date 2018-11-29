@@ -20,7 +20,7 @@ class WaveToMfcc(object):
 
     def glue(self, indexes):
         output = []
-        for i in range(0, 11):
+        for i in range(0, 10):
             if not isinstance(indexes, np.int32):
                 mfcc_i = self.mfcc_array_[indexes[0], i]
                 indexes2 = np.delete(indexes, 0)
