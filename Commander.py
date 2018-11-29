@@ -61,6 +61,7 @@ class Commander(object):
 
             self.results_ = results
             self.rr_ = rr
+            rr_i = np.mean(rr)
         return results, rr
 
     def write_to_csv(self):

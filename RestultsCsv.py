@@ -4,7 +4,6 @@ import csv
 
 
 class ResultsCsv(object):
-
     # constructor
 
     def __init__(self, results_matrix, rr):
