@@ -60,9 +60,8 @@ class Commander(object):
                     results_likelyhoods[idx, 0] = classificator.classify(i)[1]
                     names[idx, 0] = self.converter.list_of_speakers[one_test]+"_" + str(i) + '_.wav'
                     idx += 1
-            results_onetest = np.concatenate((names, results_onetest), axis=1)
+            results_onetest = np.concatenate((names, results_onetest, results_likelyhoods), axis=1)
             results.append(results_onetest)
-            results.append(results_likelyhoods)
             rr[0, i_r] = classificator.get_RR()
             i_r += 1
 
