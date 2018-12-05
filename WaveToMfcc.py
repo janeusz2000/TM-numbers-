@@ -2,6 +2,7 @@
 import numpy as np
 from python_speech_features import mfcc
 import librosa.feature
+import python_speech_features
 
 class WaveToMfcc(object):
 
@@ -25,8 +26,7 @@ class WaveToMfcc(object):
 
     def create_mfcc(self, winlen_, nfilt_, numcep_):
         mfcc_array = self.wave_array_
-        mfcc_delta_array = mfcc_array
-        mfcc_delta_array2 = mfcc_array
+
         for row in range(0, len(self.wave_array_)):
             for index in range(0, len(self.wave_array_[0]) - 1):
                 mfcc_i = mfcc(self.wave_array_[row][index], self.rate_, appendEnergy=False, winlen=winlen_,
@@ -45,10 +45,6 @@ class WaveToMfcc(object):
                     #mfcc_array[row][index] -= np.mean(mfcc_array[row][index], axis=0)
                     #mfcc_array[row][index] = mfcc_array[row][index]/np.std(mfcc_array[row][index])
 
-                # delta and delta-delta
-
-                mfcc_delta_array[row][index] = librosa.feature.delta(mfcc_array[row][index])
-                mfcc_delta_array2[row][index] = librosa.feature.delta(mfcc_array[row][index], order=2)
 
         return mfcc_array
 
