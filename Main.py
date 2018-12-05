@@ -5,7 +5,7 @@ import Commander
 
 commander = Commander.Commander(path_folder="train", winlen=None)
 commander.cross_test()
-commander.write_to_csv('results_with_cms.csv')
+commander.write_to_csv('results_delta2.csv')
 
 
 commander = Commander.Commander(path_folder="train", winlen=None)
