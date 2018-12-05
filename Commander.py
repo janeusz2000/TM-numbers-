@@ -55,7 +55,7 @@ class Commander(object):
                 mfcc_table = self.converter.glue(one_test)
                 for i in range(0, 10):
                     classificator.mfcc_ = mfcc_table[i]
-                    results_onetest[idx, 0] = classificator.classify(i)
+                    results_onetest[idx, 0] = classificator.classify_(i)
                     names[idx, 0] = self.converter.list_of_speakers[one_test]+"_" + str(i) + '_.wav'
                     idx += 1
             results_onetest = np.concatenate((names, results_onetest), axis=1)
@@ -63,9 +63,9 @@ class Commander(object):
             rr[0, i_r] = classificator.get_RR()
             i_r += 1
 
-            self.results_ = results
-            self.rr_ = rr
-            rr_i = np.mean(rr)
+        self.results_ = results
+        rr_i = np.mean(rr)
+        self.rr_ = rr_i
         return results, rr_i
 
     def write_to_csv(self, file_name):

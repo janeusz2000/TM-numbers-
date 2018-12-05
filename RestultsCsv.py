@@ -24,8 +24,6 @@ class ResultsCsv(object):
                 for each in site_file:
                     results_writer.writerow([str(each[0])] + [' recognised: '] + [str(each[1])])
 
-                results_writer.writerow(['Recognition ratio: '] + [self.rr_[0, site]])
-
         results_file.close()
 
 
