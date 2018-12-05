@@ -18,7 +18,6 @@ class WaveToMfcc(object):
             self.ncep_ = ncep
         else:
             self.ncep_ = 13
-
         self.wave_array_ = array
         self.rate_ = rate
         self.mfcc_array_ = self.create_mfcc(self.winlen_, self.nfilt_, self.ncep_)
@@ -28,8 +27,17 @@ class WaveToMfcc(object):
         mfcc_array = self.wave_array_
         for row in range(0, len(self.wave_array_)):
             for index in range(0, len(self.wave_array_[0]) - 1):
-                mfcc_i = mfcc(self.wave_array_[row][index], self.rate_, appendEnergy=False, winlen=winlen_, nfilt=nfilt_, numcep=numcep_)
-                mfcc_array[row][index] = mfcc(self.wave_array_[row][index], self.rate_, appendEnergy=False, winlen=winlen_, nfilt=nfilt_, numcep=numcep_)
+                mfcc_i = mfcc(self.wave_array_[row][index], self.rate_, appendEnergy=False, winlen=winlen_,
+                              nfilt=nfilt_, numcep=numcep_)
+                mfcc_array[row][index] = mfcc(self.wave_array_[row][index], self.rate_, appendEnergy=False,
+                                              winlen=winlen_, nfilt=nfilt_, numcep=numcep_)
+                # Cepstral Mean Substraction
+                if index != len(self.wave_array_[0]) - 1:
+                    mfcc_array[row][index] -= np.mean(mfcc_array[row][index], axis=0)
+                # Cepstral Mean Variance Normalisation
+                #if index != len(self.wave_array_[0]) - 1:
+                    #mfcc_array[row][index] -= np.mean(mfcc_array[row][index], axis=0)
+                    #mfcc_array[row][index] = mfcc_array[row][index]/np.std(mfcc_array[row][index])
         return mfcc_array
 
     def glue(self, indexes):
