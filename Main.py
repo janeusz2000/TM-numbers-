@@ -1,24 +1,9 @@
 """" this is main commander of a program"""
 
 import Commander
-
-
-commander = Commander.Commander(path_folder="train", winlen=None)
-commander.cross_test()
-commander.write_to_csv('results_delta2.csv')
-
+import external_evaluator
 
 commander = Commander.Commander(path_folder="train", winlen=None)
 commander.cross_test()
-commander.write_to_csv('results_without_ceplifter.csv')
-
-
-commander = Commander.Commander(path_folder="train", winlen=None)
-commander.cross_test()
-commander.write_to_csv('results_without_preemphasis.csv')
-
-
-commander = Commander.Commander(path_folder="train", winlen=None)
-commander.cross_test()
-commander.write_to_csv('results_LL_Norm.csv')
+commander.write_to_csv('results.csv')
 print("program ended")

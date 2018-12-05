@@ -1,232 +1,221 @@
-Recognition ratio: ,0.7636363636363637
-Crossvalidation type: ,0
-AO1M1_0_.wav, recognised: ,0.0
-AO1M1_1_.wav, recognised: ,1.0
-AO1M1_2_.wav, recognised: ,2.0
-AO1M1_3_.wav, recognised: ,3.0
-AO1M1_4_.wav, recognised: ,4.0
-AO1M1_5_.wav, recognised: ,9.0
-AO1M1_6_.wav, recognised: ,6.0
-AO1M1_7_.wav, recognised: ,7.0
-AO1M1_8_.wav, recognised: ,8.0
-AO1M1_9_.wav, recognised: ,9.0
-BC1M1_0_.wav, recognised: ,0.0
-BC1M1_1_.wav, recognised: ,1.0
-BC1M1_2_.wav, recognised: ,2.0
-BC1M1_3_.wav, recognised: ,3.0
-BC1M1_4_.wav, recognised: ,6.0
-BC1M1_5_.wav, recognised: ,5.0
-BC1M1_6_.wav, recognised: ,6.0
-BC1M1_7_.wav, recognised: ,7.0
-BC1M1_8_.wav, recognised: ,8.0
-BC1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,1
-DG1M1_0_.wav, recognised: ,0.0
-DG1M1_1_.wav, recognised: ,1.0
-DG1M1_2_.wav, recognised: ,2.0
-DG1M1_3_.wav, recognised: ,4.0
-DG1M1_4_.wav, recognised: ,4.0
-DG1M1_5_.wav, recognised: ,5.0
-DG1M1_6_.wav, recognised: ,4.0
-DG1M1_7_.wav, recognised: ,7.0
-DG1M1_8_.wav, recognised: ,8.0
-DG1M1_9_.wav, recognised: ,5.0
-JC1M1_0_.wav, recognised: ,0.0
-JC1M1_1_.wav, recognised: ,1.0
-JC1M1_2_.wav, recognised: ,8.0
-JC1M1_3_.wav, recognised: ,7.0
-JC1M1_4_.wav, recognised: ,4.0
-JC1M1_5_.wav, recognised: ,5.0
-JC1M1_6_.wav, recognised: ,7.0
-JC1M1_7_.wav, recognised: ,7.0
-JC1M1_8_.wav, recognised: ,8.0
-JC1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,2
-JK1M1_0_.wav, recognised: ,0.0
-JK1M1_1_.wav, recognised: ,1.0
-JK1M1_2_.wav, recognised: ,2.0
-JK1M1_3_.wav, recognised: ,5.0
-JK1M1_4_.wav, recognised: ,7.0
-JK1M1_5_.wav, recognised: ,9.0
-JK1M1_6_.wav, recognised: ,7.0
-JK1M1_7_.wav, recognised: ,8.0
-JK1M1_8_.wav, recognised: ,8.0
-JK1M1_9_.wav, recognised: ,9.0
-JO1M1_0_.wav, recognised: ,0.0
-JO1M1_1_.wav, recognised: ,1.0
-JO1M1_2_.wav, recognised: ,2.0
-JO1M1_3_.wav, recognised: ,9.0
-JO1M1_4_.wav, recognised: ,4.0
-JO1M1_5_.wav, recognised: ,9.0
-JO1M1_6_.wav, recognised: ,6.0
-JO1M1_7_.wav, recognised: ,7.0
-JO1M1_8_.wav, recognised: ,8.0
-JO1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,3
-JP1M1_0_.wav, recognised: ,0.0
-JP1M1_1_.wav, recognised: ,1.0
-JP1M1_2_.wav, recognised: ,2.0
-JP1M1_3_.wav, recognised: ,4.0
-JP1M1_4_.wav, recognised: ,4.0
-JP1M1_5_.wav, recognised: ,9.0
-JP1M1_6_.wav, recognised: ,6.0
-JP1M1_7_.wav, recognised: ,7.0
-JP1M1_8_.wav, recognised: ,8.0
-JP1M1_9_.wav, recognised: ,9.0
-JP2M1_0_.wav, recognised: ,0.0
-JP2M1_1_.wav, recognised: ,1.0
-JP2M1_2_.wav, recognised: ,2.0
-JP2M1_3_.wav, recognised: ,4.0
-JP2M1_4_.wav, recognised: ,4.0
-JP2M1_5_.wav, recognised: ,6.0
-JP2M1_6_.wav, recognised: ,6.0
-JP2M1_7_.wav, recognised: ,4.0
-JP2M1_8_.wav, recognised: ,8.0
-JP2M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,4
-JS1M1_0_.wav, recognised: ,0.0
-JS1M1_1_.wav, recognised: ,1.0
-JS1M1_2_.wav, recognised: ,2.0
-JS1M1_3_.wav, recognised: ,4.0
-JS1M1_4_.wav, recognised: ,4.0
-JS1M1_5_.wav, recognised: ,5.0
-JS1M1_6_.wav, recognised: ,6.0
-JS1M1_7_.wav, recognised: ,7.0
-JS1M1_8_.wav, recognised: ,8.0
-JS1M1_9_.wav, recognised: ,9.0
-KD1M1_0_.wav, recognised: ,0.0
-KD1M1_1_.wav, recognised: ,1.0
-KD1M1_2_.wav, recognised: ,2.0
-KD1M1_3_.wav, recognised: ,9.0
-KD1M1_4_.wav, recognised: ,7.0
-KD1M1_5_.wav, recognised: ,5.0
-KD1M1_6_.wav, recognised: ,4.0
-KD1M1_7_.wav, recognised: ,7.0
-KD1M1_8_.wav, recognised: ,8.0
-KD1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,5
-KD2M1_0_.wav, recognised: ,0.0
-KD2M1_1_.wav, recognised: ,1.0
-KD2M1_2_.wav, recognised: ,2.0
-KD2M1_3_.wav, recognised: ,9.0
-KD2M1_4_.wav, recognised: ,4.0
-KD2M1_5_.wav, recognised: ,9.0
-KD2M1_6_.wav, recognised: ,6.0
-KD2M1_7_.wav, recognised: ,7.0
-KD2M1_8_.wav, recognised: ,8.0
-KD2M1_9_.wav, recognised: ,9.0
-MR1M1_0_.wav, recognised: ,0.0
-MR1M1_1_.wav, recognised: ,1.0
-MR1M1_2_.wav, recognised: ,8.0
-MR1M1_3_.wav, recognised: ,3.0
-MR1M1_4_.wav, recognised: ,4.0
-MR1M1_5_.wav, recognised: ,9.0
-MR1M1_6_.wav, recognised: ,6.0
-MR1M1_7_.wav, recognised: ,8.0
-MR1M1_8_.wav, recognised: ,8.0
-MR1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,6
-MS1M1_0_.wav, recognised: ,0.0
-MS1M1_1_.wav, recognised: ,1.0
-MS1M1_2_.wav, recognised: ,2.0
-MS1M1_3_.wav, recognised: ,3.0
-MS1M1_4_.wav, recognised: ,4.0
-MS1M1_5_.wav, recognised: ,9.0
-MS1M1_6_.wav, recognised: ,6.0
-MS1M1_7_.wav, recognised: ,7.0
-MS1M1_8_.wav, recognised: ,8.0
-MS1M1_9_.wav, recognised: ,9.0
-PL1M1_0_.wav, recognised: ,0.0
-PL1M1_1_.wav, recognised: ,1.0
-PL1M1_2_.wav, recognised: ,2.0
-PL1M1_3_.wav, recognised: ,4.0
-PL1M1_4_.wav, recognised: ,4.0
-PL1M1_5_.wav, recognised: ,9.0
-PL1M1_6_.wav, recognised: ,6.0
-PL1M1_7_.wav, recognised: ,7.0
-PL1M1_8_.wav, recognised: ,8.0
-PL1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,7
-PS1M1_0_.wav, recognised: ,0.0
-PS1M1_1_.wav, recognised: ,1.0
-PS1M1_2_.wav, recognised: ,2.0
-PS1M1_3_.wav, recognised: ,7.0
-PS1M1_4_.wav, recognised: ,4.0
-PS1M1_5_.wav, recognised: ,5.0
-PS1M1_6_.wav, recognised: ,6.0
-PS1M1_7_.wav, recognised: ,7.0
-PS1M1_8_.wav, recognised: ,8.0
-PS1M1_9_.wav, recognised: ,9.0
-PW1M1_0_.wav, recognised: ,0.0
-PW1M1_1_.wav, recognised: ,1.0
-PW1M1_2_.wav, recognised: ,2.0
-PW1M1_3_.wav, recognised: ,4.0
-PW1M1_4_.wav, recognised: ,4.0
-PW1M1_5_.wav, recognised: ,9.0
-PW1M1_6_.wav, recognised: ,6.0
-PW1M1_7_.wav, recognised: ,7.0
-PW1M1_8_.wav, recognised: ,8.0
-PW1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,8
-RG1M1_0_.wav, recognised: ,0.0
-RG1M1_1_.wav, recognised: ,1.0
-RG1M1_2_.wav, recognised: ,2.0
-RG1M1_3_.wav, recognised: ,3.0
-RG1M1_4_.wav, recognised: ,7.0
-RG1M1_5_.wav, recognised: ,7.0
-RG1M1_6_.wav, recognised: ,6.0
-RG1M1_7_.wav, recognised: ,7.0
-RG1M1_8_.wav, recognised: ,8.0
-RG1M1_9_.wav, recognised: ,9.0
-SG1M1_0_.wav, recognised: ,0.0
-SG1M1_1_.wav, recognised: ,1.0
-SG1M1_2_.wav, recognised: ,2.0
-SG1M1_3_.wav, recognised: ,3.0
-SG1M1_4_.wav, recognised: ,4.0
-SG1M1_5_.wav, recognised: ,9.0
-SG1M1_6_.wav, recognised: ,6.0
-SG1M1_7_.wav, recognised: ,7.0
-SG1M1_8_.wav, recognised: ,8.0
-SG1M1_9_.wav, recognised: ,9.0
-Crossvalidation type: ,9
-SG2M1_0_.wav, recognised: ,0.0
-SG2M1_1_.wav, recognised: ,1.0
-SG2M1_2_.wav, recognised: ,8.0
-SG2M1_3_.wav, recognised: ,3.0
-SG2M1_4_.wav, recognised: ,4.0
-SG2M1_5_.wav, recognised: ,9.0
-SG2M1_6_.wav, recognised: ,6.0
-SG2M1_7_.wav, recognised: ,8.0
-SG2M1_8_.wav, recognised: ,8.0
-SG2M1_9_.wav, recognised: ,9.0
-SG3M2_0_.wav, recognised: ,0.0
-SG3M2_1_.wav, recognised: ,1.0
-SG3M2_2_.wav, recognised: ,8.0
-SG3M2_3_.wav, recognised: ,3.0
-SG3M2_4_.wav, recognised: ,4.0
-SG3M2_5_.wav, recognised: ,9.0
-SG3M2_6_.wav, recognised: ,6.0
-SG3M2_7_.wav, recognised: ,8.0
-SG3M2_8_.wav, recognised: ,8.0
-SG3M2_9_.wav, recognised: ,9.0
-Crossvalidation type: ,10
-SP1M1_0_.wav, recognised: ,0.0
-SP1M1_1_.wav, recognised: ,4.0
-SP1M1_2_.wav, recognised: ,0.0
-SP1M1_3_.wav, recognised: ,4.0
-SP1M1_4_.wav, recognised: ,4.0
-SP1M1_5_.wav, recognised: ,7.0
-SP1M1_6_.wav, recognised: ,6.0
-SP1M1_7_.wav, recognised: ,4.0
-SP1M1_8_.wav, recognised: ,4.0
-SP1M1_9_.wav, recognised: ,7.0
-SW1M1_0_.wav, recognised: ,0.0
-SW1M1_1_.wav, recognised: ,1.0
-SW1M1_2_.wav, recognised: ,8.0
-SW1M1_3_.wav, recognised: ,3.0
-SW1M1_4_.wav, recognised: ,4.0
-SW1M1_5_.wav, recognised: ,5.0
-SW1M1_6_.wav, recognised: ,6.0
-SW1M1_7_.wav, recognised: ,7.0
-SW1M1_8_.wav, recognised: ,8.0
-SW1M1_9_.wav, recognised: ,9.0
+Recognition ratio: ,0.7863636363636364
+AO1M1_0_.wav,0
+AO1M1_1_.wav,1
+AO1M1_2_.wav,2
+AO1M1_3_.wav,3
+AO1M1_4_.wav,4
+AO1M1_5_.wav,9
+AO1M1_6_.wav,6
+AO1M1_7_.wav,7
+AO1M1_8_.wav,8
+AO1M1_9_.wav,9
+BC1M1_0_.wav,0
+BC1M1_1_.wav,1
+BC1M1_2_.wav,2
+BC1M1_3_.wav,3
+BC1M1_4_.wav,4
+BC1M1_5_.wav,5
+BC1M1_6_.wav,6
+BC1M1_7_.wav,4
+BC1M1_8_.wav,8
+BC1M1_9_.wav,9
+DG1M1_0_.wav,0
+DG1M1_1_.wav,1
+DG1M1_2_.wav,2
+DG1M1_3_.wav,3
+DG1M1_4_.wav,4
+DG1M1_5_.wav,5
+DG1M1_6_.wav,6
+DG1M1_7_.wav,7
+DG1M1_8_.wav,8
+DG1M1_9_.wav,5
+JC1M1_0_.wav,0
+JC1M1_1_.wav,1
+JC1M1_2_.wav,2
+JC1M1_3_.wav,3
+JC1M1_4_.wav,7
+JC1M1_5_.wav,9
+JC1M1_6_.wav,7
+JC1M1_7_.wav,7
+JC1M1_8_.wav,8
+JC1M1_9_.wav,9
+JK1M1_0_.wav,0
+JK1M1_1_.wav,1
+JK1M1_2_.wav,2
+JK1M1_3_.wav,3
+JK1M1_4_.wav,4
+JK1M1_5_.wav,9
+JK1M1_6_.wav,6
+JK1M1_7_.wav,7
+JK1M1_8_.wav,8
+JK1M1_9_.wav,9
+JO1M1_0_.wav,8
+JO1M1_1_.wav,1
+JO1M1_2_.wav,2
+JO1M1_3_.wav,9
+JO1M1_4_.wav,4
+JO1M1_5_.wav,5
+JO1M1_6_.wav,6
+JO1M1_7_.wav,4
+JO1M1_8_.wav,8
+JO1M1_9_.wav,9
+JP1M1_0_.wav,0
+JP1M1_1_.wav,1
+JP1M1_2_.wav,2
+JP1M1_3_.wav,3
+JP1M1_4_.wav,4
+JP1M1_5_.wav,5
+JP1M1_6_.wav,6
+JP1M1_7_.wav,7
+JP1M1_8_.wav,7
+JP1M1_9_.wav,9
+JP2M1_0_.wav,0
+JP2M1_1_.wav,1
+JP2M1_2_.wav,2
+JP2M1_3_.wav,3
+JP2M1_4_.wav,4
+JP2M1_5_.wav,4
+JP2M1_6_.wav,6
+JP2M1_7_.wav,4
+JP2M1_8_.wav,7
+JP2M1_9_.wav,9
+JS1M1_0_.wav,0
+JS1M1_1_.wav,1
+JS1M1_2_.wav,2
+JS1M1_3_.wav,3
+JS1M1_4_.wav,4
+JS1M1_5_.wav,5
+JS1M1_6_.wav,6
+JS1M1_7_.wav,7
+JS1M1_8_.wav,8
+JS1M1_9_.wav,9
+KD1M1_0_.wav,0
+KD1M1_1_.wav,1
+KD1M1_2_.wav,1
+KD1M1_3_.wav,9
+KD1M1_4_.wav,3
+KD1M1_5_.wav,5
+KD1M1_6_.wav,6
+KD1M1_7_.wav,5
+KD1M1_8_.wav,8
+KD1M1_9_.wav,9
+KD2M1_0_.wav,0
+KD2M1_1_.wav,1
+KD2M1_2_.wav,2
+KD2M1_3_.wav,9
+KD2M1_4_.wav,4
+KD2M1_5_.wav,9
+KD2M1_6_.wav,6
+KD2M1_7_.wav,7
+KD2M1_8_.wav,8
+KD2M1_9_.wav,9
+MR1M1_0_.wav,0
+MR1M1_1_.wav,1
+MR1M1_2_.wav,0
+MR1M1_3_.wav,3
+MR1M1_4_.wav,4
+MR1M1_5_.wav,9
+MR1M1_6_.wav,6
+MR1M1_7_.wav,7
+MR1M1_8_.wav,8
+MR1M1_9_.wav,9
+MS1M1_0_.wav,1
+MS1M1_1_.wav,1
+MS1M1_2_.wav,2
+MS1M1_3_.wav,3
+MS1M1_4_.wav,4
+MS1M1_5_.wav,9
+MS1M1_6_.wav,6
+MS1M1_7_.wav,7
+MS1M1_8_.wav,8
+MS1M1_9_.wav,9
+PL1M1_0_.wav,0
+PL1M1_1_.wav,1
+PL1M1_2_.wav,2
+PL1M1_3_.wav,5
+PL1M1_4_.wav,7
+PL1M1_5_.wav,5
+PL1M1_6_.wav,6
+PL1M1_7_.wav,7
+PL1M1_8_.wav,8
+PL1M1_9_.wav,5
+PS1M1_0_.wav,2
+PS1M1_1_.wav,1
+PS1M1_2_.wav,2
+PS1M1_3_.wav,8
+PS1M1_4_.wav,7
+PS1M1_5_.wav,8
+PS1M1_6_.wav,6
+PS1M1_7_.wav,7
+PS1M1_8_.wav,8
+PS1M1_9_.wav,9
+PW1M1_0_.wav,0
+PW1M1_1_.wav,9
+PW1M1_2_.wav,2
+PW1M1_3_.wav,3
+PW1M1_4_.wav,4
+PW1M1_5_.wav,5
+PW1M1_6_.wav,6
+PW1M1_7_.wav,7
+PW1M1_8_.wav,8
+PW1M1_9_.wav,9
+RG1M1_0_.wav,0
+RG1M1_1_.wav,1
+RG1M1_2_.wav,2
+RG1M1_3_.wav,3
+RG1M1_4_.wav,4
+RG1M1_5_.wav,5
+RG1M1_6_.wav,6
+RG1M1_7_.wav,7
+RG1M1_8_.wav,8
+RG1M1_9_.wav,9
+SG1M1_0_.wav,0
+SG1M1_1_.wav,1
+SG1M1_2_.wav,2
+SG1M1_3_.wav,7
+SG1M1_4_.wav,7
+SG1M1_5_.wav,9
+SG1M1_6_.wav,6
+SG1M1_7_.wav,7
+SG1M1_8_.wav,8
+SG1M1_9_.wav,9
+SG2M1_0_.wav,0
+SG2M1_1_.wav,1
+SG2M1_2_.wav,2
+SG2M1_3_.wav,6
+SG2M1_4_.wav,4
+SG2M1_5_.wav,5
+SG2M1_6_.wav,6
+SG2M1_7_.wav,7
+SG2M1_8_.wav,8
+SG2M1_9_.wav,5
+SG3M2_0_.wav,0
+SG3M2_1_.wav,1
+SG3M2_2_.wav,2
+SG3M2_3_.wav,3
+SG3M2_4_.wav,8
+SG3M2_5_.wav,9
+SG3M2_6_.wav,8
+SG3M2_7_.wav,7
+SG3M2_8_.wav,8
+SG3M2_9_.wav,9
+SP1M1_0_.wav,0
+SP1M1_1_.wav,4
+SP1M1_2_.wav,2
+SP1M1_3_.wav,3
+SP1M1_4_.wav,4
+SP1M1_5_.wav,7
+SP1M1_6_.wav,6
+SP1M1_7_.wav,7
+SP1M1_8_.wav,7
+SP1M1_9_.wav,3
+SW1M1_0_.wav,0
+SW1M1_1_.wav,1
+SW1M1_2_.wav,2
+SW1M1_3_.wav,4
+SW1M1_4_.wav,0
+SW1M1_5_.wav,8
+SW1M1_6_.wav,6
+SW1M1_7_.wav,7
+SW1M1_8_.wav,8
+SW1M1_9_.wav,9

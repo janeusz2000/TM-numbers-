@@ -9,7 +9,7 @@ Requirements:
     004.WAV,3,-94.24
 
 Marcin Witkowski
-AGH November 2017
+AGH November 2017ą
 """
 import matplotlib.pyplot as plt
 
