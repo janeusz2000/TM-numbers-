@@ -2,7 +2,7 @@
 
 import Commander
 
-commander = Commander.Commander(path_folder="train", winlen=None )
+commander = Commander.Commander(path_folder="train", winlen=None, nfilt=None, ncep=None)
 commander.cross_test()
-commander.write_to_csv('results_LL_Norm.csv')
+commander.write_to_csv('results.csv')
 print("program ended")

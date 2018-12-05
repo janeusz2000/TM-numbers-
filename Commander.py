@@ -11,14 +11,22 @@ import RestultsCsv
 
 class Commander(object):
 
-    def __init__(self, path_folder, winlen):
+    def __init__(self, path_folder, winlen, nfilt, ncep):
         if winlen != None:
             self.winlen_ = winlen
         else:
             self.winlen_ = 0.025
+        if nfilt != None:
+            self.nfilt_ = nfilt
+        else:
+            self.nfilt_ = 26
+        if ncep != None:
+            self.ncep_ = ncep
+        else:
+            self.ncep_ = 13
         self.reader_ = WaveReader.WaveReader(path_folder)
         (self.signals, self.rate) = self.reader_.read_all()
-        self.converter = WaveToMfcc.WaveToMfcc(self.signals, self.rate, self.winlen_)
+        self.converter = WaveToMfcc.WaveToMfcc(self.signals, self.rate, self.winlen_, self.nfilt_, self.ncep_)
         self.mfcc_array_ = self.converter.glue_all()
         self.gmm_table_ = []
         self.cross_split = CrossValidation.CrossValidation(self.converter.list_of_speakers, 2)
@@ -55,7 +63,7 @@ class Commander(object):
                 mfcc_table = self.converter.glue(one_test)
                 for i in range(0, 10):
                     classificator.mfcc_ = mfcc_table[i]
-                    results_onetest[idx, 0] = classificator.classify(i)
+                    results_onetest[idx, 0] = classificator.classify_norm(i)
                     names[idx, 0] = self.converter.list_of_speakers[one_test]+"_" + str(i) + '_.wav'
                     idx += 1
             results_onetest = np.concatenate((names, results_onetest), axis=1)
