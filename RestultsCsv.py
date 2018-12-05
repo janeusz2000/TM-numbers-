@@ -16,7 +16,7 @@ class ResultsCsv(object):
 
         with open(str(self.name_), mode='w') as results_file:
             results_writer = csv.writer(results_file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-
+            results_writer.writerow(['Recognition ratio: '] + [self.rr_])
             for site in range(0, 11):
                 site_file = self.results_[site]
                 results_writer.writerow(['Crossvalidation type: '] + [str(site)])
