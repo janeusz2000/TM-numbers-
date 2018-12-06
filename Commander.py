@@ -111,3 +111,4 @@ class Commander(object):
         else:
             writer = RestultsCsv.ResultsCsv(self.results_, self.rr_, file_name)
             writer.write_to_csv_else()
+        EvaluateObject.evaluate()
