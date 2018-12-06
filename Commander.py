@@ -9,9 +9,8 @@ import numpy as np
 import RestultsCsv
 import os
 import scipy.io.wavfile as wav
-import EvaluateObject
 from python_speech_features import mfcc
-
+import EvaluateObject
 
 class Commander(object):
 
@@ -93,6 +92,8 @@ class Commander(object):
             path = os.path.join(path_, file)
             (rate, number_1) = wav.read(path)
             mfcc_table = mfcc(number_1, rate, appendEnergy=False, winlen=0.015, nfilt=30, numcep=7, ceplifter=0)
+            mfcc_table -= np.mean(mfcc_table, axis=0)
+            mfcc_table = mfcc_table / np.std(mfcc_table)
             classificator.mfcc_ = mfcc_table
             name = os.path.basename(path)
             (result,  results_likelyhoods) = classificator.classify(keys[os.path.basename(path)])
